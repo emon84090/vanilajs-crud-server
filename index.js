@@ -84,7 +84,7 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res) => {
-    res.send('vanila js crud')
+    res.send('vanila javascript crud operation with node js and mongodb')
 })
 
 app.listen(port, () => {
